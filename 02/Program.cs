@@ -15,7 +15,6 @@
 
                 Console.Write("Employee: ");
 
-
                 string[] input1 = Console.ReadLine().Split(' ');
                 string name1 = input1[0];
                 string lastname1 = input1[1];

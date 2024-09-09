@@ -15,25 +15,69 @@ namespace Bookstore
 
         public Book(string author, string title, decimal price)
         {
-            this.author = author;
-            this.title = title;
-            this.price = price;
+            Author = author;
+            Title = title;
+            Price = price;
         }
 
 
         public void Display()
         {
             Console.Write("Author: ");
-            Console.WriteLine(author);
+            Console.WriteLine(Author);
             Console.Write("Title: ");
-            Console.WriteLine(title);
+            Console.WriteLine(Title);
             Console.Write("Price: $");
             Console.WriteLine(Price); 
+        }
+
+        public string Author
+        {
+            get { return author; }
+
+            set
+            {
+                if (char.IsNumber(value[0]))
+                {
+                    throw new("Author not valid!");
+                }
+                else
+                {
+                    author = value;
+                }
+            }
+        }
+
+        public string Title
+        {
+            get { return title; }
+            set
+            {
+                if (value.Length <= 3)
+                {
+                    throw new("Title not valid!");
+                }
+                else
+                {
+                    title = value;
+                }
+            }
         }
 
         public virtual decimal Price
         {
             get { return price; }
+            set
+            {
+                if (value < 0 || value > 999999999999)
+                {
+                    throw new("The price is not valid!");
+                }
+                else
+                {
+                    price = value;
+                }
+            }
         }
 
     }

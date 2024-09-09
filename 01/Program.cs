@@ -4,25 +4,32 @@
     {
         static void Main()
         {
-            Console.Write("Author: ");
-            string author = Console.ReadLine();
-            Console.Write("Title: ");
-            string title = Console.ReadLine();
-            Console.Write("Price: ");
-            decimal price = decimal.Parse(Console.ReadLine());
+            try
+            {
+                Console.Write("Author: ");
+                string author = Console.ReadLine();
+                Console.Write("Title: ");
+                string title = Console.ReadLine();
+                Console.Write("Price: ");
+                decimal price = decimal.Parse(Console.ReadLine());
 
-            Book book = new Book(author, title, price);
-            GoldenEditionBook goldenEditionBook = new GoldenEditionBook(author, title, price);
+                Book book = new Book(author, title, price);
+                GoldenEditionBook goldenEditionBook = new GoldenEditionBook(author, title, price);
 
-            line();
+                line();
 
-            Console.WriteLine("Type: Book");
-            book.Display();
+                Console.WriteLine("Type: Book");
+                book.Display();
 
-            line();
+                line();
 
-            Console.WriteLine("Type: GoldenEditionBook");
-            goldenEditionBook.Display();
+                Console.WriteLine("Type: GoldenEditionBook");
+                goldenEditionBook.Display();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
         }
 
