@@ -34,12 +34,10 @@
 
                     totalHours = totalMinute / 60;
                     totalMinute = totalMinute % 60;
+
                 }
                 Console.WriteLine($"Songs added: {count}");
                 Console.WriteLine($"Playlist length: {totalHours}h {totalMinute}m {totalSecond}s");
-
-
-
                 
             }
             catch (Exception ex)
@@ -47,6 +45,7 @@
                 Console.WriteLine(ex.Message);
             }
         }
+     
     }
 
 }
