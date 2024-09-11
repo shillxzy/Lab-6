@@ -57,7 +57,7 @@ namespace Humanity
             }
         }
 
-        public float WorkOfCount
+        public int WorkOfCount
         {
             get { return WorkCount; }
 
@@ -69,7 +69,7 @@ namespace Humanity
                 }
                 else
                 {
-                    WorkCount = (int)value;
+                    WorkCount = value;
                 }
             }
         }

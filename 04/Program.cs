@@ -8,15 +8,11 @@
             {
                 List<string> list = new List<string>();
 
-                string[] input = Console.ReadLine().Split(' ');
+                string[] input = Console.ReadLine().Split();
 
-                for (int i = 0; i < input.Length; i++)
+                foreach (string s in input)
                 {
-                    if (input[i] == ";")
-                    {
-                        break;
-                    }
-                    list.Add(input[i]);
+                    list.Add(s);
                 }
 
                 Food food = new Food(list);

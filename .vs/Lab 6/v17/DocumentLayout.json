@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\dmska\\source\\repos\\Lab 6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF8B8846-D0BB-4323-B75C-9A1804708611}|03\\03.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8B8846-D0BB-4323-B75C-9A1804708611}|03\\03.csproj|solutionrelative:03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\02\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|solutionrelative:02\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\02\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|solutionrelative:02\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4247CB-B2EC-4BB2-8BBC-48F607B7158B}|02\\02.csproj|solutionrelative:02\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76E3E3C3-E3DB-475D-B734-51EFA1916487}|04\\04.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76E3E3C3-E3DB-475D-B734-51EFA1916487}|04\\04.csproj|solutionrelative:04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{76E3E3C3-E3DB-475D-B734-51EFA1916487}|04\\04.csproj|solutionrelative:04\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF8B8846-D0BB-4323-B75C-9A1804708611}|03\\03.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF8B8846-D0BB-4323-B75C-9A1804708611}|03\\03.csproj|solutionrelative:03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECC55B57-24BF-40DF-BFB5-BF718CFB22EC}|01\\01.csproj|c:\\users\\dmska\\source\\repos\\lab 6\\01\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC55B57-24BF-40DF-BFB5-BF718CFB22EC}|01\\01.csproj|solutionrelative:01\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Student.cs",
+              "RelativeDocumentMoniker": "02\\Student.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Student.cs",
+              "RelativeToolTip": "02\\Student.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:55:50.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Person.cs",
+              "RelativeDocumentMoniker": "02\\Person.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Person.cs",
+              "RelativeToolTip": "02\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T12:55:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Employee.cs",
+              "RelativeDocumentMoniker": "02\\Employee.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\02\\Employee.cs",
+              "RelativeToolTip": "02\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:45:30.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\01\\Book.cs",
+              "RelativeDocumentMoniker": "01\\Book.cs",
+              "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\01\\Book.cs",
+              "RelativeToolTip": "01\\Book.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwEcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:44:49.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\04\\Program.cs",
               "RelativeDocumentMoniker": "04\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\04\\Program.cs",
               "RelativeToolTip": "04\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwC4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T10:16:11.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Food.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\04\\Food.cs",
               "RelativeDocumentMoniker": "04\\Food.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\04\\Food.cs",
               "RelativeToolTip": "04\\Food.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwAsAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:17:23.866Z"
+              "WhenOpened": "2024-09-09T15:17:23.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dmska\\source\\repos\\Lab 6\\03\\Program.cs",
               "RelativeDocumentMoniker": "03\\Program.cs",
               "ToolTip": "C:\\Users\\dmska\\source\\repos\\Lab 6\\03\\Program.cs",
               "RelativeToolTip": "03\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:01:06.536Z"
+              "WhenOpened": "2024-09-09T15:01:06.536Z",
+              "EditorCaption": ""
             }
           ]
         }

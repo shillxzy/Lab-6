@@ -19,8 +19,6 @@ namespace Gendalf
             food = foods; 
         }
 
-
-
         public int CalculateMoodGendalf()
         {
             int mood = 0;

@@ -69,7 +69,7 @@ namespace Bookstore
             get { return price; }
             set
             {
-                if (value < 0 || value > 999999999999)
+                if (value < 0 || value > 999999)
                 {
                     throw new("The price is not valid!");
                 }
